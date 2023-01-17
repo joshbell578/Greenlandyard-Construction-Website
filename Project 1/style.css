@@ -21,10 +21,10 @@ header section {
 
 header section h1 {
     color: antiquewhite;
-    font-size: 0;
+    font-size: 40px;
 } 
 
 header section p {
     color: aliceblue;
-    font-size: 0;
+    font-size: 40px;
 }
