@@ -1,0 +1,30 @@
+body {
+    font-size: 115%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the banner */
+header {
+    background-image: url("images/Importance-of-Web-2.0.jpg");
+    height: 100vh;
+    min-height: 600px;
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+header section {
+    padding: 1rem;
+}
+
+header section h1 {
+    color: antiquewhite;
+    font-size: 0;
+} 
+
+header section p {
+    color: aliceblue;
+    font-size: 0;
+}
