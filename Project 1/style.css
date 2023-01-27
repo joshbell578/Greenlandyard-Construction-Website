@@ -1,3 +1,5 @@
+
+
 body {
     font-size: 115%;
     margin: 0;
@@ -20,11 +22,27 @@ header section {
 }
 
 header section h1 {
-    color: antiquewhite;
-    font-size: 40px;
+    color: beige;
+    font-size: 2.2em;
 } 
 
 header section p {
-    color: aliceblue;
-    font-size: 40px;
+    color: blue;
+    font-size: 1.2em;
+}
+
+article p {
+    background-color: bisque;
+} 
+
+footer p {
+    color: lightblue;
+}
+
+footer li {
+    color: lightblue;
+}
+
+footer li a:hover {
+    color: purple;
 }
