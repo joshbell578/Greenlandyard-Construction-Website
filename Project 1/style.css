@@ -77,27 +77,3 @@ header section p {
     max-width: 60em;
     margin: 0 auto;
 }
-    color: beige;
-    font-size: 2.2em;
-} 
-
-header section p {
-    color: blue;
-    font-size: 1.2em;
-}
-
-article p {
-    background-color: bisque;
-} 
-
-footer p {
-    color: lightblue;
-}
-
-footer li {
-    color: lightblue;
-}
-
-footer li a:hover {
-    color: purple;
-}
