@@ -1,9 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/* set color varibles */
+:root {
+    --background: hsl(0, 0%, 0%);
+    --lighter-background: hsl(246, 96%, 36%);
+    --text: hsl(73, 96%, 97%);
+    --primary: #09d309;
+    --accent: #ecfd08;
+    --other-accent: #08e0fd;
+    --link-hover: #b60505c5;
+}
+/* Style */
 body {
     font-size: 115%;
     margin: 0;
     padding: 0;
+    color: var(--text);
+    background-color: var(--background);
+    line-height: 1.45;
 }
-
+h1, h2 , h3 {
+    font-family: 'Nixie One', cursive;
+}
+p, li {
+    max-width: 70rem;
+}
+a:link, a:visited {
+    color: var(--primary);
+}
+a:hover {
+    color: var(--link-hover);
+}
+a:active, body a:focus {
+    color: var(--other-accent);
+}
 /* Style the banner */
 header {
     background-image: url("Images/landscape-design-1.jpg");
@@ -17,14 +53,27 @@ header {
 
 header section {
     padding: 1rem;
+    width: 40rem;
+    position: relative;
+    left: 2rem;
+    bottom: 2rem;
 }
 
 header section h1 {
-    color: antiquewhite;
-    font-size: 40px;
+    color: #ffffff;
+    font-size: 2.2em;
+    margin-bottom: 0;
 } 
 
 header section p {
-    color: aliceblue;
-    font-size: 40px;
+    color: #caadada1;
+    font-size: 1.2em;
+}
+
+
+/* Center the centered-main class */
+.centered-main {
+    width: 70%;
+    max-width: 60em;
+    margin: 0 auto;
 }
