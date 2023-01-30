@@ -8,7 +8,7 @@ html {
 }
 /* set color varibles */
 :root {
-    --background: hsl(0, 0%, 0%);
+    --background: hsl(76, 100%, 50%);
     --lighter-background: hsl(246, 96%, 36%);
     --text: hsl(73, 96%, 97%);
     --primary: #09d309;
@@ -42,7 +42,7 @@ a:active, body a:focus {
 }
 /* Style the banner */
 header {
-    background-image: url("Images/landscape-design-1.jpg");
+    background-color: var(--lighter-background);
     height: 100vh;
     min-height: 600px;
     max-height: 700px;
@@ -76,4 +76,28 @@ header section p {
     width: 70%;
     max-width: 60em;
     margin: 0 auto;
+}
+
+h2.centered-main {
+    padding-top: 4rem;
+}
+/* Style floated boxes */
+.box-right {
+    box-sizing: content-box;
+    float: right;
+    width: 350px;
+    padding: 0.5em;
+    border: 2px solid var(--accent);
+    margin: 0 0 1em 1em;
+    border-radius: 4px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+/* style the footer */
+footer {
+    background-color: var(--lighter-background);
+    padding: 0.2em 0;
 }
