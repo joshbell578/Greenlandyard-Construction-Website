@@ -8,9 +8,9 @@ html {
 }
 /* set color varibles */
 :root {
-    --background: hsl(76, 100%, 50%);
-    --lighter-background: hsl(246, 96%, 36%);
-    --text: hsl(73, 96%, 97%);
+    --background: hsl(115, 96%, 22%);
+    --lighter-background: hsl(113, 100%, 50%);
+    --text: hsl(0, 0%, 99%);
     --primary: #09d309;
     --accent: #ecfd08;
     --other-accent: #08e0fd;
@@ -66,7 +66,7 @@ header section h1 {
 } 
 
 header section p {
-    color: #caadada1;
+    color: #8b6464a1;
     font-size: 1.2em;
 }
 
