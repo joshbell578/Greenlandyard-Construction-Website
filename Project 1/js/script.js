@@ -20,5 +20,3 @@ function validateEmailAddress(email) {
     return false;
     }
     $("#validate").bind("click", validate);
-
-    
