@@ -3,15 +3,24 @@ function validateEmailAddress(email) {
     return re.test(email);
     }
     function validate() {
-    $("#result").text("");
-    var emailaddress = $("#email").val();
-    if (validateEmailAddress(emailaddress)) {
-    $("#result").text(emailaddress + " is valid :)");
-    $("#result").css("color", "green");
+    $("#results").text("result");
+    var firstName = $("#firstName").val();
+    if (validate(firstName)) {
+        $("#results").text(firstName + " is valid :)");
+        $("#results").css("color", "green");
     } else {
-    $("#result").text(emailaddress + " is not correct, please retry:(");
-    $("#result").css("color", "red");
+        $("#results").text(firstName + " is not correct, please retry:(");
+        $("#results").css("color", "red");
     }
-    return false;
+    var lastName = $("#lastName").val();
+    if (validate(lastName)) {
+        $("#results").text(lastName + " is valid :)");
+        $("#results").css("color", "green");
+    } else {
+        $("#results").text(lastName + " is not correct, please retry:(");
+        $("#results").css("color", "red");
+    }
+    
+    return results;
     }
     $("#validate").bind("click", validate);
