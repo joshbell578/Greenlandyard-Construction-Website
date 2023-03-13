@@ -42,7 +42,7 @@ a:active, body a:focus {
 }
 /* Style the banner */
 header {
-    background-color: var(--lighter-background);
+    background-image: none;
     height: 100vh;
     min-height: 600px;
     max-height: 700px;
@@ -69,8 +69,10 @@ header section p {
     color: #8b6464a1;
     font-size: 1.2em;
 }
-
-
+/* Style the article */
+section article {
+    background-color: var(--lighter-background);
+}
 /* Center the centered-main class */
 .centered-main {
     width: 70%;
