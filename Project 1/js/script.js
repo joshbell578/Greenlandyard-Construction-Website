@@ -1,6 +1,4 @@
 function validateEmailAddress(email) {
-    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
     }
     function validate() {
     $("#results").text("result");
@@ -20,7 +18,22 @@ function validateEmailAddress(email) {
         $("#results").text(lastName + " is not correct, please retry:(");
         $("#results").css("color", "red");
     }
-    
+    var emailAddress = $("#email").val();
+    if (validate(emailAddress)) {
+        $("#results").text(emailAddress + " is valid :)");
+        $("#results").css("color", "green");
+    } else {
+        $("#results").text(emailAddress + " is not correct, please retry:(");
+        $("#results").css("color", "red");
+    }
+    var otherInfo = $("#other").val();
+    if (validate(otherInfo)) {
+        $("#results").text(otherInfo + " is valid :)");
+        $("#results").css("color", "green");
+    } else {
+        $("#results").text(otherInfo + " is not correct, please retry:(");
+        $("#results").css("color", "red");
+    }
     return results;
     }
     $("#validate").bind("click", validate);
