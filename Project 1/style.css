@@ -70,7 +70,7 @@ header section p {
     font-size: 1.2em;
 }
 /* Style the article */
-section article {
+section {
     background-color: var(--lighter-background);
 }
 /* Center the centered-main class */
