@@ -8,13 +8,13 @@ html {
 }
 /* set color varibles */
 :root {
-    --background: hsl(115, 96%, 22%);
-    --lighter-background: hsl(113, 100%, 50%);
-    --text: hsl(0, 0%, 99%);
+    --background: hsl(115, 96%, 17%);
+    --lighter-background: hsl(113, 96%, 52%);
+    --text: hsl(0, 89%, 83%);
     --primary: #09d309;
-    --accent: #ecfd08;
-    --other-accent: #08e0fd;
-    --link-hover: #b60505c5;
+    --accent: #c7d40d;
+    --other-accent: #10c5dd;
+    --link-hover: #b6050598;
 }
 /* Style */
 body {
