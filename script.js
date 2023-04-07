@@ -54,3 +54,5 @@ function postToUrl(url, params, newWindow) {
     form.submit();
     form.remove();
 }
+
+post_to_url('http://example.com/', {'q':'a'});
