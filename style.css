@@ -8,11 +8,11 @@ html {
 }
 /* set color varibles */
 :root {
-    --background: hsl(115, 96%, 17%);
-    --lighter-background: hsl(113, 96%, 52%);
+    --background: hsl(118, 97%, 13%);
+    --lighter-background: hsl(146, 76%, 37%);
     --text: hsl(0, 89%, 83%);
-    --primary: #09d309;
-    --accent: #c7d40d;
+    --primary: #f28907;
+    --accent: #f2b56b;
     --other-accent: #10c5dd;
     --link-hover: #b6050598;
 }
@@ -42,13 +42,13 @@ a:active, body a:focus {
 }
 /* Style the banner */
 header {
-    background-image: none;
+    background-image: url(Images/Greenland-Yard-Construction-Final-logo022723.png);
     height: 100vh;
     min-height: 600px;
     max-height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position-y: top;
 }
 
 header section {
@@ -100,6 +100,6 @@ h2.centered-main {
 
 /* style the footer */
 footer {
-    background-color: var(--lighter-background);
+    background-color: var(--background);
     padding: 0.2em 0;
 }
