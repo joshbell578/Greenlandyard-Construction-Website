@@ -98,8 +98,20 @@ h2.centered-main {
     clear: both;
 }
 
-/* style the footer */
+/* Style the footer */
 footer {
     background-color: var(--background);
     padding: 0.2em 0;
+}
+
+/* Style the form tag */
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+/* Style the address */
+address {
+    display: block;
+    font-style: italic;
 }
