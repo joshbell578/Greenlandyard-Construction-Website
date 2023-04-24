@@ -1,3 +1,4 @@
 # Greenlandyard-Construction-Website
-# Greenlandyard-Construction-Website
-Thinking of stories
+This for a a small company.
+## Discription
+The Greenlandyard Construction is a small Company that a real businesses that does landscaping that my Dad owns. Also you can apply for a job or contact him so he can do your lawn or the stuff on what the site says. 
