@@ -1,8 +1,7 @@
 function validateName(name) {
-    var name = $("#name").val();
-    if (validate(name)) {
+    name = $("#name").val();
+    if (validateName(name)) {
         $("#results").text(name);
-        $("#results").css("color", "green");
     } else {
         $("#results").text(name + " is not correct, please retry:(");
         $("#results").css("color", "red");
@@ -11,9 +10,8 @@ function validateName(name) {
 
 function validateEmailAddress(email) {
     var emailAddress = $("#email").val();
-    if (validate(email)) {
+    if (validateEmailAddress(email)) {
         $("#results").text(emailAddress);
-        $("#results").css("color", "green");
     } else {
         $("#results").text(emailAddress + " is not correct, please retry:(");
         $("#results").css("color", "red");
@@ -55,4 +53,4 @@ function postToUrl(url, params, newWindow) {
     form.remove();
 }
 
-post_to_url('http://example.com/', {'q':'a'});
+postToUrl('http://example.com/', {'q':'a'});
