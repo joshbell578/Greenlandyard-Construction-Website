@@ -18,7 +18,7 @@ html {
 }
 /* Style */
 body {
-    font-size: 115%;
+    font-size: 135%;
     margin: 0;
     padding: 0;
     color: var(--text);
@@ -53,20 +53,20 @@ header {
 
 header section {
     padding: 1rem;
-    width: 40rem;
+    width: 50rem;
     position: relative;
     left: 2rem;
     bottom: 2rem;
 }
 
 header section h1 {
-    color: #ffffff;
+    color: #0d0d0d;
     font-size: 2.2em;
     margin-bottom: 0;
 } 
 
 header section p {
-    color: #8b6464a1;
+    color: #f2f2f2;
     font-size: 1.2em;
 }
 /* Style the article */
