@@ -9,7 +9,7 @@ html {
 /* set color varibles */
 :root {
     --background: hsl(118, 97%, 13%);
-    --lighter-background: hsl(146, 76%, 37%);
+    --lighter-background: hsla(146, 76%, 37%, 50%);
     --text: hsl(0, 89%, 83%);
     --primary: #f28907;
     --accent: #f2b56b;
@@ -42,7 +42,7 @@ a:active, body a:focus {
 }
 /* Style the banner */
 header {
-    background-image: url(Images/Greenland-Yard-Construction-Final-logo022723.png);
+    background-image: url("Images/landscape-design-1.jpg");
     height: 100vh;
     min-height: 600px;
     max-height: 700px;
@@ -63,6 +63,10 @@ header section h1 {
     color: #0d0d0d;
     font-size: 2.2em;
     margin-bottom: 0;
+    background-image: url("Images/Greenland-Yard-Construction-Final-logo-sm.png");
+    background-repeat: no-repeat;
+    text-indent: -1000px;
+    height: 115px;
 } 
 
 header section p {
