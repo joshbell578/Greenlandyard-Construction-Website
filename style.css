@@ -15,6 +15,8 @@ html {
     --accent: #f2b56b;
     --other-accent: #10c5dd;
     --link-hover: #b6050598;
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
 }
 /* Style */
 body {
@@ -24,12 +26,31 @@ body {
     color: var(--text);
     background-color: var(--background);
     line-height: 1.45;
+    --wp--style--global--content-size: 823px;
+    --wp--style--global--wide-size: 1080px;
+    box-sizing: border-box;
+    display: block;
 }
+/* body.custom-background {
+    background-color: var(--background);
+    background-image: url();
+} */
 h1, h2 , h3 {
     font-family: 'Nixie One', cursive;
 }
 p, li {
     max-width: 70rem;
+}
+div#page-container.et-animated-content{
+    margin-top: -1px;
+    padding-top: 112px;
+    overflow-y: hidden;
+}
+header#main-header{
+    top: 63.5px;
+}
+div#et-top-navigtion{
+    padding-left: 166px;
 }
 a:link, a:visited {
     color: var(--primary);
@@ -39,6 +60,30 @@ a:hover {
 }
 a:active, body a:focus {
     color: var(--other-accent);
+}
+#main-header, #et-top-navigtion{
+    font-family: "Bad Srcipt", handwriting;
+}
+a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background-color: transparent;
+}
+#et-top-navigtion{
+    margin-right: 0;
+    float: right;
+    font-weight: 600;
+}
+#top-menu li a, .et_search_form_container input {
+    font-weight: bold;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
 }
 /* Style the banner */
 header {
