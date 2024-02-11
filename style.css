@@ -35,6 +35,33 @@ body {
     background-color: var(--background);
     background-image: url();
 } */
+.et_boxed_layout #page-container, .et_boxed_layout #page-container .container, .et_boxed_layout #page-container .et_pb_row, .et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header, .et_boxed_layout.et_pb_pagebuilder_layout.single #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .et_pb_row, .et_fixed_nav.et_boxed_layout #page-container #main-header, .et_fixed_nav.et_boxed_layout #page-container #top-header, .et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container #main-header {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container.et_search_form_container {
+    position: relative;
+    opacity: 0;
+    height: 1px;
+}
+/*@media (max-width: 980px) #logo, #main-header, .container, .logo_container {
+    -webkit-transition: none;
+    transition: none;
+}*/
+.et_search_form_container {
+    -webkit-animation: none;
+    animation: none;
+    -o-animation: none;
+}
+.container {
+    text-align: left;
+    position: relative;
+}
+.nf-input-limit {
+    font-size: 12px;
+    margin-top: 5px;
+}
 h1, h2 , h3 {
     font-family: 'Nixie One', cursive;
 }
@@ -51,6 +78,242 @@ header#main-header{
 }
 div#et-top-navigtion{
     padding-left: 166px;
+}
+div#fcfcffegdijeffbfjdcabaeaedieeaic{
+    color: initial;
+    font: initial;
+    font-synthesis: initial;
+    forced-color-adjust: initial;
+    position: relative;
+    text-rendering: initial;
+    -webkit-font-smoothing: initial;
+    -webkit-locale: initial;
+    /*-webkit-text-orientation: initial;*/
+    writing-mode: initial;
+    zoom: initial;
+    accent-color: initial;
+    place-content: initial;
+    place-items: initial;
+    place-self: initial;
+    /*alignment-baseline: initial;*/
+    animation-composition: initial;
+    animation: initial;
+    /*app-region: initial;*/
+    appearance: initial;
+    aspect-ratio: initial;
+    backdrop-filter: initial;
+    backface-visibility: initial;
+    background: initial;
+    background-blend-mode: initial;
+    /*baseline-shift: initial;
+    baseline-source: initial;*/
+    block-size: initial;
+    border-block: initial;
+    border: initial;
+    border-radius: initial;
+    border-collapse: initial;
+    border-end-end-radius: initial;
+    border-end-start-radius: initial;
+    border-inline: initial;
+    border-start-end-radius: initial;
+    border-start-start-radius: initial;
+    inset: initial;
+    box-shadow: initial;
+    box-sizing: initial;
+    break-after: initial;
+    break-before: initial;
+    break-inside: initial;
+    caption-side: initial;
+    caret-color: initial;
+    clear: initial;
+    clip: initial;
+    clip-path: initial;
+    clip-rule: initial;
+    color-interpolation-filters: initial;
+    color-scheme: initial;
+    columns: initial;
+    column-fill: initial;
+    gap: initial;
+    column-rule: initial;
+    column-span: initial;
+    contain: initial;
+    contain-intrinsic-block-size: initial;
+    contain-intrinsic-size: initial;
+    contain-intrinsic-inline-size: initial;
+    content: initial;
+    content-visibility: initial;
+    counter-increment: initial;
+    counter-reset: initial;
+    counter-set: initial;
+    cursor: initial;
+    display: initial;
+    empty-cells: initial;
+    fill: initial;
+    fill-opacity: initial;
+    fill-rule: initial;
+    filter: initial;
+    flex: initial;
+    flex-flow: initial;
+    float: initial;
+    flood-color: initial;
+    flood-opacity: initial;
+    grid: initial;
+    grid-area: initial;
+    height: initial;
+    hyphenate-character: initial;
+    hyphens: initial;
+    image-orientation: initial;
+    image-rendering: initial;
+    initial-letter: initial;
+    inline-size: initial;
+    inset-block: initial;
+    inset-inline: initial;
+    isolation: initial;
+    letter-spacing: initial;
+    lighting-color: initial;
+    line-break: initial;
+    list-style: initial;
+    margin-block: initial;
+    margin: initial;
+    margin-inline: initial;
+    marker: initial;
+    mask: initial;
+    mask-type: initial;
+    math-depth: initial;
+    math-shift: initial;
+    math-style: initial;
+    max-block-size: initial;
+    max-height: initial;
+    max-inline-size: initial;
+    max-width: initial;
+    min-block-size: initial;
+    min-height: initial;
+    min-inline-size: initial;
+    min-width: initial;
+    mix-blend-mode: initial;
+    object-fit: initial;
+    object-position: initial;
+    offset: initial;
+    opacity: initial;
+    order: initial;
+    orphans: initial;
+    outline: initial;
+    outline-offset: initial;
+    overflow-anchor: initial;
+    overflow-clip-margin: initial;
+    overflow-wrap: initial;
+    overflow: initial;
+    overscroll-behavior-block: initial;
+    overscroll-behavior-inline: initial;
+    overscroll-behavior: initial;
+    padding-block: initial;
+    padding: initial;
+    padding-inline: initial;
+    paint-order: initial;
+    perspective: initial;
+    perspective-origin: initial;
+    pointer-events: initial;
+    quotes: initial;
+    resize: initial;
+    rotate: initial;
+    ruby-position: initial;
+    scale: initial;
+    scroll-behavior: initial;
+    scroll-margin-block: initial;
+    scroll-margin: initial;
+    scroll-margin-inline: initial;
+    scroll-padding-block: initial;
+    scroll-padding: initial;
+    scroll-padding-inline: initial;
+    scroll-snap-align: initial;
+    scroll-snap-stop: initial;
+    scroll-snap-type: initial;
+    scroll-timeline: initial;
+    scrollbar-color: initial;
+    scrollbar-gutter: initial;
+    scrollbar-width: initial;
+    shape-image-threshold: initial;
+    shape-margin: initial;
+    shape-outside: initial;
+    shape-rendering: initial;
+    size: initial;
+    stop-color: initial;
+    stop-opacity: initial;
+    stroke: initial;
+    stroke-dasharray: initial;
+    stroke-dashoffset: initial;
+    stroke-linecap: initial;
+    stroke-linejoin: initial;
+    stroke-miterlimit: initial;
+    stroke-opacity: initial;
+    stroke-width: initial;
+    tab-size: initial;
+    table-layout: initial;
+    text-align: initial;
+    text-align-last: initial;
+    text-anchor: initial;
+    text-combine-upright: initial;
+    text-decoration: initial;
+    text-decoration-skip-ink: initial;
+    text-emphasis: initial;
+    text-emphasis-position: initial;
+    text-indent: initial;
+    text-overflow: initial;
+    text-shadow: initial;
+    text-size-adjust: initial;
+    text-transform: initial;
+    text-underline-offset: initial;
+    text-underline-position: initial;
+    white-space: initial; 
+    touch-action: initial;
+    transform: initial;
+    transform-box: initial;
+    transform-origin: initial;
+    transform-style: initial;
+    transition: initial;
+    translate: initial;
+    user-select: initial;
+    vertical-align: initial;
+    visibility: initial;
+    border-spacing: initial;
+    -webkit-box-align: initial;
+    -webkit-box-direction: initial;
+    -webkit-box-flex: initial;
+    -webkit-box-ordinal-group: initial;
+    -webkit-box-orient: initial;
+    -webkit-box-pack: initial;
+    -webkit-box-reflect: initial;
+    -webkit-line-break: initial;
+    -webkit-line-clamp: initial;
+    -webkit-mask-box-image: initial;
+    -webkit-rtl-ordering: initial;
+    -webkit-ruby-position: initial;
+    -webkit-tap-highlight-color: initial;
+    -webkit-text-combine: initial;
+    -webkit-text-decorations-in-effect: initial;
+    -webkit-text-fill-color: initial;
+    -webkit-text-security: initial;
+    -webkit-text-stroke: initial;
+    -webkit-user-drag: initial;
+    -webkit-user-modify: initial;
+    widows: initial;
+    width: initial;
+    will-change: initial;
+    word-break: initial;
+    word-spacing: initial;
+    z-index: 2147483647;
+}
+img.alignnone.wp-image-6283.size-full{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.et_pb_text_inner p{
+    text-align: center;
+}
+img.alignnone.size-full.wp-image-6279{
+    width: 200;
+    height: 102;
 }
 a:link, a:visited {
     color: var(--primary);
