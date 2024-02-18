@@ -62,11 +62,52 @@ body {
     font-size: 12px;
     margin-top: 5px;
 }
+.field-wrap {
+    display: flex
+}
+.label-above .field-wrap, .label-below .field-wrap{
+    flex-flow: wrap;
+}
+.ninja-forms-form-wrap *, .ninja-forms-form-wrap :after, .ninja-forms-form-wrap :before{
+    box-sizing: border-box; 
+}
+.nf-form-content .list-select-wrap .nf-field-element>div, .nf-form-content input:not([type=button]), .nf-form-content textarea {
+    background: #f7f7f7;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    box-shadow: none;
+    color: #787878;
+    transition: all .5s;
+}
+.nf-form-content .listselect-wrap .nf-field-element div, .nf-form-content input.ninja-forms-field, .nf-form-content select.ninja-forms-field:not([multiple]) {
+    height: 50px;
+}
+.nf-form-content .listselect-wrap .nf-field-element div, .nf-form-content .ninja-forms-field {
+    font-size: 16px;
+    margin: 0;
+    padding: 12px;
+}
+.field-wrap .pikaday__container, .field-wrap .pikaday__display, .field-wrap>div input, .field-wrap select, .field-wrap textarea {
+    width: 100%;
+}
+.nf-field-element input, .nf-field-element select, .nf-field-element textarea{
+    vertical-align: inherit;
+}
+button, input, select, textarea {
+    font-family: inherit;
+}
+input {
+    appearance: none;
+}
 h1, h2 , h3 {
     font-family: 'Nixie One', cursive;
 }
 p, li {
     max-width: 70rem;
+}
+iframe{
+    display: none;
+    visibility: hidden;
 }
 div#page-container.et-animated-content{
     margin-top: -1px;
@@ -350,7 +391,7 @@ a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code,
 }
 /* Style the banner */
 header {
-    background-image: url("Images/landscape-design-1.jpg");
+    /* background-image: url("Images/landscape-design-1.jpg"); */
     height: 100vh;
     min-height: 600px;
     max-height: 700px;
