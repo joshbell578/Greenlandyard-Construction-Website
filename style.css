@@ -99,6 +99,48 @@ button, input, select, textarea {
 input {
     appearance: none;
 }
+body .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), body .gform_wrapper textarea.textarea, body div.form_saved_message div.form_saved_message_emailform form input[type=text] {
+    background-color: #eeeeee;
+    border: 0;
+    font-size: 14px;
+    color: #999999;
+    padding: 16px;
+    line-height: initial;
+    height: initial;
+}
+.gform_wrapper.gravity-theme .ginput_complex input, .gform_wrapper.gravity-theme .ginput_complex select {
+    width: 100%;
+}
+.gform_wrapper.gravity-theme .gfield input, .gform_wrapper.gravity-theme .gfield select {
+    max-width: 100%;
+}
+.gform_wrapper.gravity-theme .gf_hidden, .gform_wrapper.gravity-theme .gform_hidden {
+    display: none;
+}
+.gform_wrapper.gravity-theme * {
+    box-sizing: border-box;
+}
+button, input, select, textarea {
+    font-family: inherit;
+}
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+div#field_1_11.gfield.gfield--type-text.gfield--width-half.gfield_contains_required.field_sublabel_below.gfield--no-discription.field_discription_below.gfield_visibility_visible{
+    display: none;
+}
+.gform_wrapper.gravity-theme .gfield-choice-input {
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: middle;
+}
+.gform_wrapper.gravity-theme * {
+    box-sizing: border-box;
+}
 h1, h2 , h3 {
     font-family: 'Nixie One', cursive;
 }
@@ -113,6 +155,44 @@ div#page-container.et-animated-content{
     margin-top: -1px;
     padding-top: 112px;
     overflow-y: hidden;
+}
+div#gform_multifile_upload_1_12.gform_fileupload_multifile {
+    position: relative;
+}
+div#gform_drag_drop_area_1_12.gform_drop_area.gform-theme-field-control {
+    position: relative;
+}
+button#gform_browse_button_1_12.button.gform_button_select_files.gform-theme-button.gform-theme-button--control {
+    position: relative;
+    z-index: 1;
+}
+div#html5_1holk3p051f5118pt1fh91fgg1tah3_container.moxie-shim.moxie-shim-html5 {
+    position: absolute;
+    top: 59px;
+    left: 270px;
+    width: 81px;
+    height: 24px;
+    overflow: hidden;
+    z-index: 0;
+}
+div.grecaptcha-badge {
+    width: 256px;
+    height: 60px;
+    display: block;
+    transition: right 0.3s ease 0s;
+    position: fixed;
+    bottom: 14px;
+    right: -186px;
+    box-shadow: gray 0px 0px 5px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+p.akismet-fiels-container {
+    display: none !important;
+}
+div.textwidget>div {
+    font-size: small;
+    text-align: center;
 }
 header#main-header{
     top: 63.5px;
