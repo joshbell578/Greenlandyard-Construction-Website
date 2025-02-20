@@ -1,330 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-3297068-1&1=dataLayer&cx=c"></script>
-    <script src="https://connect.facebook.net/signals/config/173440189974166?v=2.9.151&r=stable&domain=www.greenlandyc.com&hme8ce74e881727851b4427186d72704925561b9de6420cd43214ee&ex_m=66%2C111%2C98%2C102%2C57%2C3%2C92%2C65%2C15%2C90%2C83%2C48%2C50%2C157%2C160%2C171%2C167%2C168%2C170%2C28%2C93%2C49%2C72%2C169%2C152%2C155%2C164%2C165%2C172%2C120%2C14%2C47%2C176%2C175%2C122%2C17%2C32%2C36%2C1%2C40%2C61%2C62%2C63%2C67%2C87%2C16%2C13%2C89%2C86%2C85%2C99%2C101%2C35%2C100%2C29%2C25%2C153%2C156%2C129%2C27%2C10%2C11%2C12%2C5%2C6%2C24%2C21%2C22%2C53%2C58%2C60%2C70%2C94%2C26%2C71%2C8%2C7%2C75%2C45%2C20%2C96%2C95%2C9%2C19%2C18%2C77%2C82%2C44%2C43%2C81%2C37%2C39%2C80%2C52%2C78%2C31%2C41%2C34%2C69%2C0%2C88%2C4%2C84%2C76%2C79%2C2%2C33%2C59%2C38%2C97%2C42%2C74%2C64%2C103%2C56%2C55%2C30%2C91%2C54%2C51%2C46%2C73%2C68%2C23%2C104" async=""></script>
-    <script async="" src="https://connect.facebook.net/en US/fbevents.js"></script>
-    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PP2T3M2"></script>
-    <script>
-        if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var e=document.location.href;if(!e.match(/[?&]nonitro/)){if(e.indexOf("?")==-1){if(e.indexOf("#")==-1){document.location.href=e+"?nonitro=1"}else{document.location.href=e.replace("#","?nonitro=1#")}}else{if(e.indexOf("#")==-1){document.location.href=e+"&nonitro=1"}else{document.location.href=e.replace("#","&nonitro=1#")}}}}
-    </script>
-    <script>
-        var NPSH,NitroScrollHelper;NPSH=NitroScrollHelper=function(){let e=null;const o=window.sessionStorage.getItem("nitroScrollPos");function t(){let e=JSON.parse(window.sessionStorage.getItem("nitroScrollPos"))||{};if(typeof e!=="object"){e={}}e[document.URL]=window.scrollY;window.sessionStorage.setItem("nitroScrollPos",JSON.stringify(e))}window.addEventListener("scroll",function(){if(e!==null){clearTimeout(e)}e=setTimeout(t,200)},{passive:true});let r={};r.getScrollPos=()=>{if(!o){return 0}const e=JSON.parse(o);return e[document.URL]||0};r.isScrolled=()=>{return r=getScrollPos()>document.documentElement.clientHeight*.5};return r}();
-    </script>
-    <script>
-        (function(){var a=false;var e=document.documentElement.classList;var i=navigator.userAgent.toLocaleLowerCase();var n=["android","iphone","ipad"];var r=n.length;var o;var d=null;for(var t=0;t<r;t++){o=n[t];if(i.indexOf(o)>-1)d=o;if(e.contains(o)){a=true;e.remove(o)}}if(a&&d){e.add(d);if(d=="iphone"||d=="ipad"){e.add("ios")}}})();
-    </script>
-    <script type="text/javascript" id="nitro-web-worker">
-        var preloadRequests=0;var remainingCount={};var baseURI="";self.onmessage=function(e){switch(e.data.cmd){case"RESOURCE_PRELOAD":var o=e.data.requestId;remainingCount[o]=0;e.data.resources.forEach(function(e){preload(e,function(o){return function(){console.log(o+" DONE: "+e);if(--remainingCount[o]==0){self.postMessage({cmd:"RESOURCE_PRELOAD",requestId:o})}}}(o));remainingCount[o]++});break;case"SET_BASEURI":baseURI=e.data.uri;break}};async function preload(e,o){if(typeof URL!=="undefined"&&baseURI){try{var a=new URL(e,baseURI);e=a.href}catch(e){console.log("Worker error: "+e.message)}}console.log("Preloading"+e);try{var n=new Request(e,{mode:"no-cors",redirect:"follow"});await fetch(n);o()}catch(a){console.log(a);var r=new XMLHttpRequest;r.responseType="blob";r.onload=o;r.onerror=o;r.open("GET",e,true);r.send()}}
-    </script>
-    <script id="nprl">
-        (()=>{if(window.NPRL!=undefined)return;(function(e){var t=e.prototype;t.after||(t.after=function(){var e,t=arguments,n=t.length,r=0,i=this,o=i.parentNode,a=Node,c=String,u=document;if(o!==null){while(r<n){(e=t[r])instanceof a?(i=i.nextSibling)!==null?o.insertBefore(e,i):appendChild(e):appendChild(u.createTextNode(c(e)));++r}}})})(Element);var e,t;e=t=function(){var t=false;var r=window.URL||window.webkitURL;var i=true;var o=true;var a=2;var c=null;var d;var s;var l=null;var f=null;var v=null;var m={touch:["touchmove","touchend"],default:["mousemove","click","keydown","wheel"]};var p=true;var h=[];var g=false;var E=[];var y=0;var b=0;var w=false;var N=0;var L=null;var S=false;var R=false;var T=false;var O=[];var A=[];var P=[];var I=[];var C=false;var k={};var M="noModule"in HTMLScriptElement.prototype;var x=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;function j(e,t){if(!k[e]){k[e]=[]}k[e].push(t)}function B(e,t){if(k[e]){var n=0,r=k[e];for(var n=0;n<r.length;n++){r[n].call(this,t)}}}function q(){(function(e,t){var r=null;var i=function(e){r(e)};var o=null;var a={};var c=null;var u=null;var d=0;e.addEventListener(t,function(r){if(["load","DOMContantLoaded"].indexOf(t)!=-1){if(u){G(function(){e.triggerNitroEvent(t)})}c=true}else if(t=="readystatechange"){d++;n.ogReadyState=d==1?"interactive":"complete";if(u&&u>=d){n.documentReadyState=n.ogReadyState;G(function(){e.triggerNitroEvent(t)})}}});e.addEventListener(t+"Nitro",function(e){if(["load","DOMContentLoaded"].indexOf(t)!=-1){if(!c){e.preventDefault();e.stopImmediatePropagation()}else{}u=true}else if(t=="readystatechange"){u=n.documentReadyState=="interactive"?1:2;if(d<u){e.preventDefault();e.stopImmediatePropagation()}}});switch(t){case"load":o="onload";break;case"readystatechange":o="onreadystatechange";break;default:o=null;break}if(o){Object.defineProperty(e,o,{get:function(){return r},set:function(n){if(typeof n!=="function"){r=null;e.removeEventListener(t+"Nitro",i)}else{if(!r){e.addEventListener(t+"Nitro",i)}r=n}}})}Object.defineProperty(e,"addEventListener"+t,{value:function(r){if(r!=t||!n.startedScriptLoading||document.currentScript&&document.currentScript.hasAttribute("nitro-exclude")){}else{arguments[0]+="nitro"}e.ogAddEventListener.apply(e,arguments);a[arguments[1]]=arguments[0]}});Object.defineProperty(e,"removeEventListener"+t,{value:function(t){var n=a[arguments[1]];arguments[0]=n;e.ogRemoveEventListener.apply(e,arguments)}});Object.defineProperty(e,"triggerNitroEvent"+t,{value:function(t,n){n=n||e;var r=new Event(t+"nitro",{bubbles:true});r.isNitroPack=true;Object.defineProperty(r,"type",{get:function(){return t},set:function(){}});Object.defineProperty(r,"target",{get:function(){return n},set:function(){}});e.dispatchEvent(r)}});if(typeof e.triggerNitroEvent==="undefined"){var t=e.addEventListener;var n=e.removeEventListener;Object.defineProperty(e,"ogAddEventListener",{value:t});Object.defineProperty(e,"ogRemoveEventListener",{value:n});Object.defineProperty(e,"addEventListener",{value:function(n){var r="addEventListener"+n;if(typeof e[r]!=="undefined"){e[r].apply(e,arguments)}else{t.apply(e,arguments)}},writable:true});Object.defineProperty(e,"removeEventListener",{value:function(t){var r="removeEventListener"+t;if(typeof e[r]!=="undefined"){e[r].apply(e,arguments)}else{n.apply(e,arguments)}}});Object.defineProperty(e,"triggerNitroEvent",{value:function(t,n){var r="triggerNitroEvent"+t;if(typeof e[r]!=="undefined"){e[r].apply(e,arguments)}}})()}}).apply(null,arguments)}q(window,"load");q(window,"pageshow");q(window,"DOMContentLoaded");q(document,"DOMContentLoaded");q(document,"readystatechange");try{var D=new Worker(r.createObjectURL(new Blob([document.getElementById("nitro-web-worker").textContent],{type:"text/javascript"})))}catch(e){var D=new Worker("data:text/javascript;base64,"+btoa(document.getElementById("nitro-web-worker").textContent))}D.onmessage=function(e){if(e.data.cmd=="RESOURCE_PRELOAD"){B(e.data.requestId,e)}};if(typeof document.baseURI!=="undefined"){D.postMessage({cmd:"SET_BASEURI",uri:document.baseURI})}var H=function(e){if(--y==0){G(Y)}};var U=function(e){e.target.removeEventListener("load",U);e.target.removeEventListener("error",U);e.target.removeEventListener("nitroTimeout",U);if(e.type!="nitroTimeout"){clearTimeout(e.target.nitroTimeout)}if(--b==0&&y==0){G(F)}};var _=function(e){var t=e.textContent;try{var n=r.createObjectURL(new Blob({type:"text/javascript"}))}catch(e){var n="data:text/javascript;base64,"+btoa()}return n};var Y=function(){n.documentReadyState="interactive";document.triggerNitroEvent("readystatechange");document.triggerNitroEvent("DOMContantLoaded");if(window.pageYOffset||window.pageXOffset){window.dispatchEvent(new Event("scroll"))}R=true;G(function(){if(b==0){G(F)}G(X)})};var F=function(){if(!R||S)return;S=true;L.disconnect();V();n.documentReadyState="complete";document.triggerNitroEvent("readystatechange");window.triggerNitroEvent("load",document);window.triggerNitroEvent("pageshow",document);if(window.pageYOffset||window.pageXOffset||location.hash){let e=typeof history.scrollRestoration!=="undefined"&&history.scrollRestoration=="auto";if(e&&typeof NPSH!=="undefined"&&NPSH.getScrollPos()>0&&window.pageYOffset>documentElement.clientHeight*.5){window.scrollTo(0,NPSH.getScrollPos())}else if(location.hash){try{let e=document.querySelector(location.hash);if(e){e.scrollIntoView()}}catch(e){}}}var e=null;if(a==1){e=ee}else{e=er}G(e)};var G=function(e){setTimeout(e,0)};var W=function(e){if(e.type=="touchend"||e.type=="click"){v=e}};var X=function(){if(v){setTimeout(function(e){return function(){var t=function(e,t,n){var r=new Event(e,{bubbles:true,cancelable:true});if(e=="click"){r.clientX=t;r.clientY=n}else{r.touches=[{clientX:t,clientY:n}]}return r};var n;if(e.type=="touchend"){var r=e.changedTouches[0];n=document.elementFromPoint(r.clientX,r.clientY);n.dispatchEvent(t("touchstart"),r.clientX,r.clientY);n.dispatchEvent(t("touchend"),r.clientX,r.clientY);n.dispatchEvent(t("click"),r.clientX,r.clientY)}else if(e.type=="click"){n=document.elementFromPoint(e.clientX,e.clientY);n.dispatchEvent(t("click"),e.clientX,e.clientY)}}}(v),150);v=null}};var K=function(e){if(e.tagName=="SCRIPT"&&!e.hasAttribute("data-nitro-for-id")&&!e.hasAttribute("nitro-document-write")||e.tagName=="IMG"&&(e.hasAttribute("src")||e.hasAttribute("srcset"))||e.tagName=="IFRAME"&&e.hasAttribute("src")||e.tagName=="LINK"&&e.hasAttribute("href")&&e.hasAttribute("rel")&&e.hasAttribute("rel")=="stylesheet"){var t="";switch(e.tagName){case"LINK":t=e.href;break;case"IMG":if(I.indexOf(e)>-1)return;t=e.srcset||e.src;break;default:t=e.src;break}var n=e.getAttribute("type");if(!t&&e.tagName!=="SCRIPT")return;if((e.tagName=="IMG"||e.tagName=="LINK")&&(t.indexOf("data:")===0||t.indexOf("blob:")===0))return;if(e.tagName=="SCRIPT"&&n&&n!=="text/javascript"&&n!=="application/javascript"){if(n!=="module"||!M)return}if(e.tagName=="SCRIPT"){if(e.noModule&&M){return}if(!e.src){if(e.textContent.length>0){e.textContent+="\n;if(document.currentScript.nitroTimeout) {clearTimeout(document.currentScript.nitroTimeout);}; setTimeout(function() { this.dispatchEvent(new Event('load')); }.bind(document.currentScript),0);"}else{return}}else{}I.push(e)}if(!e.hasOwnProperty("nirtoTimeout")){b++;e.addEventListener("load",U,true);e.addEventListener("error",U,true);e.addEventListener("nitroTimeout",U,true);e.nitroTimeout=setTimeout(function(){console.log("Resource timedout",e);e.dispatchEvent(new Event("nitroTimeout"))},5e3)}}};var Q=function(e){if(e.hasOwnProperty("nirtoTimeout")&&e.nitroTimeout){clearTimeout(e.nitroTimeout);e.nitroTimeout=null;e.dispatchEvent(new Event("nitroTimeout"))}};document.documentElement.addEventListener("load",function(e){if(e.target.tagName=="SCRIPT"||e.target.tagName=="IMG"){I.push(e.target)}},true);document.documentElement.addEventListener("error",function(e){if(e.target.tagName=="SCRIPT"||e.target.tagName=="IMG"){I.push(e.target)}},true);var J=["appendChild","replaceChild","insertBefore","prepend","append","before","after","replaceWith","insertAdjacentElement"];var $=function(){J.forEach(function(e){HTMLElement.prototype["og"+e]=HTMLElement.prototype[e];HTMLElement.prototype[e]=function(...t){if(this.parentNode||this===document.documentElement){switch(e){case"replaceChild":case"insertBefore":t.pop();break;"insertAdjacentElement";t.shift();break}t.forEach(function(e){if(!e)return;if(e.tagName=="SCRIPT"){K(e)}else{if(e.children&&e.children.length>0){e.querySelectorAll("script").forEach(K)}}})}return this["og"+e].apply(this,arguments)}})};var V=function(){J.forEach(function(e){HTMLElement.prototype[e]=HTMLElement.prototype["og"+e]})};var z=async function(){if(o){ec(d);ec(W);if(l){clearTimeout(l);l=null}}if(N===1){w=true;return}else if(N===0){N=-1}n.startedScriptLoading=true;Object.defineProperty(document,"readyState",{get:function(){return n.documentReadyState},set:function(){}});var e=document.documentElement;var t={attributes:true,attributeFilter:["src"],childList:true,subtree:true};L=new MutationObserver(function(e,t){e.forEach(function(e){if(e.type=="childList"&&e.addedNodes.length>0){e.addedNodes.forEach(function(e){if(!document.documentElement.contains(e)){return}if(e.tagName=="IMG"||e.tagName=="IFRAME"||e.tagName=="LINK"){K(e)}})}if(e.type=="childList"&&e.removedNodes.length>0){e.removedNodes.forEach(function(e){if(e.tagName=="IFRAME"||e.tagName=="LINK"){Q(e)}})}if(e.type=="attributes"){var t=e.target;if(!document.documentElement.contains(t)){return}if(t.tagName=="IFRAME"||t.tagName=="LINK"||t.tagName=="IMG"||t.tagName=="SCRIPT"){K(t)}}})});L.observe(e,t);$();await Promise.all(O);var r=E.shift();var i=null;var a=false;while(r){var c;var u=JSON.parse(atob(r.meta));var s=u.delay;if(r.type=="script"){var c=r.document.documentElement(r + u)}}};}})();
-    </script>
-    <script nitro-exclude="">
-        window.nitro_lazySizesConfig=window.nitro_lazySizesConfig||{};window.nitro_lazySizesConfig.lazyClass="nitro-lazy";nitro_lazySizesConfig.srcAttr="nitro-lazy-src";nitro_lazySizesConfig.srcAttr="nitro-lazy-src";nitro_lazySizesConfig.expand=10;nitro_lazySizesConfig.expFactor=1;nitro_lazySizesConfig.hFac=1;nitro_lazySizesConfig.loadMode=1;nitro_lazySizesConfig.ricTimeout=50;nitro_lazySizesConfig.loadHidden=true;(function(){var t=null;var e=false;var a=false;var i=window.scrollY;})
-    </script>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Greenland Yard Construction">
-    <meta name="generator" content="NitroPack">
     <title>Greenland Yard Construction</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ledger&family=Nixie+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.greenlandyc.com">
-    <link rel="preconnect" href="https://code.tidio.co">
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="preconnect" href="https://cdn-iliob.nitrocdn.com">
 </head>
 <body>
-    <script>
-        (function(){if(typeof NPSH!=="undefined"&&NPSH.isScrolled()){setTimeout(()=>{document.body.classList.remove("nitro-cover")},le3);document.body.classList.add("nitro-cover");window.addEventListener("load",function(){document.body.classList.remove("nitro-cover")})}})
-    </script>
-    <div id="page-container" class="et-animated-content">
-        <div id="top-header" class="">
-            <div class="container clearfix"::after>
-                <div id="et-info">
-                    <a href="tel:+1-503-847-1205">
-                        <span id="et-info-phone"::before>
-                            "+1-503-847-1205"
-                        </span>
-                    </a>
-                    <ul class="et-social-icons">
-                        <li class="et-social-icons et-social-facebook">
-                            <a href="https://www.facebook.com/Greenlandyc2024" class="icon">
-                                <span>facebook</span>
-                            </a>
-                        </li>
-                        <li class="et-social-icons et-social-tiktok">
-                            <a href="https://www.tiktok.com/Greenlandyc2024" class="icon">
-                                <span>tiktok</span>
-                            </a>
-                        </li>
-                        <!-- <li class="et-social-icons et-social-instagram">
-                            <a href="https://www.instagram.com/" class="icon">
-                                <span>instagram</span>
-                            </a>
-                        </li> -->
-                    </ul>
-                </div>
-                <!-- <div id="et-secondary-menu">
-                    <div class="et_duplicate_social_icons">
-                        <ul class="et-social-icons">
-                            <li class="et-social-icons et-social-facebook">
-                                <a href="https://www.facebook.com/Greenlandyc2024" class="icon"::before>
-                                    <span>facebook</span>
-                                </a>
-                            </li>
-                            <li class="et-social-icons et-social-tiktok">
-                                <a href="https://www.tiktok.com/Greenlandyc2024" class="icon"::before>
-                                    <span>tiktok</span>
-                                </a>
-                            </li>
-                            <li class="et-social-icons et-social-instagram">
-                                <a href="https://www.instagram.com/" class="icon"::before>
-                                    <span>instagram</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        <header id="main-header" data-height-onload="50" class="" data-height-loaded="true" data-fixed-height-onload="0">
-            <div class="container clearfix et_menu_container"::after>
-                <div class="logo_container">
-                    <span class="logo_helper"></span>
-                    <img src="https://im.ge/i/cnOzQT" alt="Greenland Yard Construction Logo">
-                </div>
-                <div id="et-top-navigtion" data-height="65" data-fixed-height="40"::after>
-                    <nav id="top-menu-nav">
-                        <ul id="top-menu" class="nav">
-                            <li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-133">
-                                <a href="https://www.Greenlandyc.com/" cursorshover="true">Home</a>
-                            </li>
-                            <li id="menu-item-9781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9781">
-                                <a href="https://www.Greenlandyc.com/payments.html" cursorshover="true">Payments</a>
-                            </li>
-                            <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
-                                <a href="company history.html" cursorshover="true">Company History</a>
-                            </li>
-                            <li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173">
-                                <a href="contact.html" cursorshover="true">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div id="et_mobile_nav_menu">
-                        <div class="mobile_nav closed">
-                            <span class="select_page">Select Page</span>
-                            <span class="mobile_menu_bar mobile_menu_bar_toggle"::before></span>
-                            <ul id="mobile_menu" class="et_mobile_menu">
-                                <li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-133 et_first_mobile_item">
-                                    <a href="https://www.Greenlandyc.com/">Home</a>
-                                </li>
-                                <li id="menu-item-9781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9781">
-                                    <a href="https://www.Greenlandyc.com/payments.html" cursorshover="true">Payments</a>
-                                </li>
-                                <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
-                                    <a href="company history.html">Company History</a>
-                                </li>
-                                <li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173">
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="et_search_outer">
-                <div class="container et_search_form_container">
-                    <form role="search" method="get" class="et-search-form" action="https://www.Greenlandyc.com/">
-                        <input type="search" class="et-search-field" placeholder="Search ..." value name="s" title="Search for:">
-                    </form>
-                    <span class="et_close_search_field"::after></span>
-                </div>
-            </div>
-        </header>
-        <div id="et-main-area">
-            <div class="et_pb_section header-video et_section_regular">
-                <div class="et_pb_row et-last-child"::after>
-                    <div class="et_pb_column et_pb_column_4_4 et_pb_css_mix_blend_mode_passthrough et-last-child">
-                        <div class="et_pb_module et_pb_image et_pb_image_sticky et_always_center_on_mobile">
-                            <span class="et_pb_image_wrap image-wrap">
-                                <img src="" alt="image not decided">
-                            </span>
-                            <span class="et_pb_image_wrap video-wrap">
-                                <video autoplay playsinline muted src="" preload="auto" data-video="0">
-                                    <source type="video/mp4" src="">
-                                </video>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="main-content">
-            <header>
-                <section>
-                    <h1>Greenland Yard Construction</h1>
-                    <p id="tagline"><i> Greenland Yard Construction is a small Company.</i></p>
-                </section>
-            </header>
+    <div id="main-content">
+        <header>
             <section>
-                <h2>Information</h2>
-                <article class="centered-main">
-                    <p>Hello my name is Bulmaro and owner of the company. I'm looking for new team members and always welcome new clinets. If you are look for a Job. You can click links at the bottom of the page.</p>
-                    <h2>Our Services</h2>
-                    <h3>Hard Scaping</h3>
-                    <ul>
-                        <li>Pavers</li>
-                        <li>Fencing   (Wood and Vinyl)</li>
-                        <li>Retaining wall</li>
-                        <li>Turff</li>
-                        <li>Sod</li>
-                        <li>Cover Patios</li>
-                        <li>Decks</li>
-                        <li>Pergolas</li>
-                    </ul>
-                    <h3>Handy Man Work</h3>
-                    <ul>
-                        <li>Home Repairs</li>
-                        <li>Renovations</li>
-                        <li>Paint</li>
-                        <li>Trim Work</li>
-                        <li>Door Replacement</li>
-                        <li>Flooring</li>
-                        <li>Tile</li>
-                        <li>Sheet Rock Repair</li>
-                        <li>And Much More...</li>
-                    </ul>
-                </article>
+                <h1>Greenland Yard Construction</h1>
+                <p id="tagline"><i> Greenland Yard Construction is a small Company.</i></p>
             </section>
-            <script nitro-exclude>
-                document.cookie = 'nitroCachedPage=' + (!window.NITROPACK_STATE ? '0' : '1') + '; path=/; SameSite=Lax';
-            </script>
-            <script nitro-exclude>
-                if (!window.NITROPACK_STATE || window.NITROPACK_STATE != 'FRESH') {
-                    var proxyPurgeOnly = 0;
-                    if (typeof navigator.sendBeacon !== 'undefined') {
-                        var nitroData = new FormData(); nitroData.append('nitroBeaconUrl', 'aHR0cHM6Ly93d3cubGV3aXNsYW5kc2NhcGUuY29tLw=='); nitroData.append('nitroBeaconCookies', 'W10='); nitroData.append('nitroBeaconHash', 'f5d97ef383f3469e5b40d2231fc3ba7d96b5f4e90d05168788ccd09d2f7feaec15abd7e38e9309accfaldbe134e29807316fd83512a84345183078c701ab92f'); nitroData.append('proxyPurgeOnly', ''); nitroData.append('layout', 'home'); navigator.sendBeacon(location.href, nitroData);
-                    } else {
-                        var xhr = new XMLHttpRequest(); xhr.open('POST', location.href, true); xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); xhr.send('nitroBeaconUrl=aHR0cHM6Ly93d3cubGV3aXNsYW5kc2NhcGUuY29tLw==&nitroBeaconCookies=W10=&nitroBeaconHash=f5d97ef383f3469e5b40d2231fc3ba7d96b5f4e90d05168788ccd09d2f7feaec15abd7e38e9309accfaldbe134e29807316fd83512a84345183078c701ab92f&proxyPurgeOnly=&layout=home');
-                    }
-                }
-            </script>
-            <footer id="main-footer" class="nitro-offscreen">
-                <div class="container">
-                    <div id="footer-widgets" class="clearfix"::after>
-                        <div class="footer-widget">
-                            <div id="text-2" class="fwidget et_pb_widget widget_text">
-                                <div class="textwidget">
-                                    <div>
-                                        <a href="https://www.Greenlandyc.com/">Home</a>
-                                        "&nbsp;|&nbsp;"
-                                        <a href="">Photo Gallery</a>
-                                        "&nbsp;|&nbsp;"
-                                        <a href="">Contact</a>
-                                        "&nbsp;|&nbsp;"
-                                        <a href="https://www.Greenlandyc.com/payments.html">Make a Payment</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="footer-bottom">
-                    <div class="container clearfix"::after>
-                        <ul class="et-social-icons">
-                            <li class="et-social-icon et-social-facebook">
-                                <a href="https://www.facebook.com/Greenlandyc2024" class="icon">facebook</a>
-                            </li>
-                            <li class="et-social-icon et-social-tiktok">
-                                <a href="https://www.tiktok.com/Greenlandyc2024" class="icon">tiktok</a>
-                            </li>
-                        </ul>
-                        <div id="footer-info">
-                            "Photos, content and design &copy;2019-2024 Greenland Yard Construction, LLC. All rights reserved. | "
-                            <a href="">Privacy Policy</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
+        </header>
+        <section>
+            <h2>Information</h2>
+            <article class="centered-main">
+                <p>Hello my name is Bulmaro and owner of the company. I'm looking for new team members and always welcome new clinets. If you are look for a Job. You can click links at the bottom of the page.</p>
+                <h2>Our Services</h2>
+                <h3>Hard Scaping</h3>
+                <ul>
+                    <li>Pavers</li>
+                    <li>Fencing   (Wood and Vinyl)</li>
+                    <li>Retaining wall</li>
+                    <li>Turff</li>
+                    <li>Sod</li>
+                    <li>Cover Patios</li>
+                    <li>Decks</li>
+                    <li>Pergolas</li>
+                </ul>
+                <h3>Handy Man Work</h3>
+                <ul>
+                    <li>Home Repairs</li>
+                    <li>Renovations</li>
+                    <li>Paint</li>
+                    <li>Trim Work</li>
+                    <li>Door Replacement</li>
+                    <li>Flooring</li>
+                    <li>Tile</li>
+                    <li>Sheet Rock Repair</li>
+                    <li>And Much More...</li>
+                </ul>
+            </article>
+        </section>
     </div>
-    <script nitro-exclude>
-        (function(){var e=[];var a={};var r=null;var i={enabled:true,observeSelectors:['[class*="slider"]',".fotorama",".esg-grid"],attributes:["src","data-src"],attributeRegex:/^data:image\/.*?;nitro-empty-id=([^;]*);base64/,cssUrlFuncRegex:/^url\(['|']data:image\/.*?;nitro-empty-id=([^;]*);base64/};var l=function(t){setTimeout(t,0)};var t=function(){document.querySelectorAll("[nitro-lazy-empty]").forEach(function(t){let e=t.getAttribute("nitro-lazy-src");let r=t.getAttribute("id");if(r&&e){a[r]=e}});r=new MutationObserver(n);let e=document.querySelectorAll(i.observeSelectors.join(","));for(let t=0;t<e.length;++t){r.observe(e[t],{subtree:true,childList:true,attributes:true,attributeFilter:i.attributes,characterData:false,attributeOldValue:false})}};var n=function(a){for(let r=0;r<a.length;++r){switch(a[r].type){case"attributes":let t=a[r].target.getAttribute(a[r].attributeName);if(!t)break;let e=i.attributeRegex.exec(t);if(e&&e[1]){a[r].target.setAttribute("nitro-lazy-"+a[r].attributeName,u(e[1]));if(a[r].target.className.indexOf("nitro-lazy")<0){a[r].target.className+=" nitro-lazy"}}break;case"childList":if(a[r].addedNodes.length>0){for(let e=0;e<a[r].addedNodes.length;++e){let t=a[r].addedNodes[e];l(function(t){return function(){s(t,true)}}(t))}}break}}};var s=function(a,t){if(!(a instanceof HTMLElement))return;if(e.indexOf(a)>-1)return;for(let r=0;r<i.attributes.length;++r){let e=a.getAttribute(i.attributes[r]);if(e){let t=i.attributeRegex.exec(e);if(t){a.setAttribute("nitro-lazy-"+i.attributes[r],u(t[1]));if(a.className.indexOf("nitro-lazy")<0){a.className+=" nitro-lazy"}}}}if(a.style.backgroundImage){let t=i.cssUrlFuncRegex.exec(a.style.backgroundImage);if(t){a.setAttribute("nitro-lazy-bg",u(t[1]));if(a.className.indexOf("nitro-lazy")<0){a.className+=" nitro-lazy"}}}e.push(a);if(t){a.querySelectorAll("*").forEach(function(t){1(function(){s(t)})})}};function u(t){return a[t]}if(i.enabled){t()}})();
-    </script>
-    <template data-nitro-maker-id="6fef8190a143ad173c9ee4cf0e9bbe6d-1">
-        #document-fragment
-    </template>
-    <script src="" data-nitro-for-id="6fef8190a143ad173c9ee4cf0e9bbe6d-1" id="6fef8190a143ad173c9ee4cf0e9bbe6d-1"></script>
-    <template data-nitro-maker-id="e5fa74ac7a0dd33f9350178256868ba4-1">
-        #document-fragment
-    </template>
-    <script src="" data-nitro-for-id="e5fa74ac7a0dd33f9350178256868ba4-1" id="e5fa74ac7a0dd33f9350178256868ba4-1"></script>
-    <template data-nitro-maker-id="83335b98e294ab69d2d76c94e734acb8-1">
-        #document-fragment
-    </template>
-    <script src="" data-nitro-for-id="83335b98e294ab69d2d76c94e734acb8-1" type="text/javascript" id="83335b98e294ab69d2d76c94e734acb8-1"></script>
-    <noscript>
-        "<iframe src="" frameborder="0"></iframe>"
-    </noscript>
-    <template data-nitro-maker-id="fc02189ecdb7546ff18b878301b83a85-1">
-        #document-fragment
-    </template>
-    <script src="" data-nitro-for-id="fc02189ecdb7546ff18b878301b83a85-1" id="fc02189ecdb7546ff18b878301b83a85-1"></script>
-    <noscript>
-        "<img  alt="" src="https://www.facebook.com/?id=173440189974166&amp;ev=PageView&amp;noscript=1">"
-    </noscript>
-    <script type="application/ld+json">
-        {
-            "@content": "http://schema.org",
-            "@type": "ProfessionalServies",
-            "name": "Greenland Yard Construction, LLC",
-            "image": "",
-            "@id": "https://www.Greenlandyc.com/#main",
-            "url": "https://www.Greenlandyc.com/",
-            "telephone": "503-847-1205",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "4708 SW 201st AVE.",
-                "addressLocalitiy": "Beverton",
-                "addressRegion": "OR",
-                "postalCode": "97078",
-                "addressCountry": "US"
-            },
-            "sameAs": [
-                "https://www.facebook.com/Greenlandyc2024"
-                "https://www.tiktok.com/Greenlandyc2024"
-            ]
-        }
-    </script>
-    <script>
-        (function(){let d=Math.max(document.documentElement.clientHeight||0,window.innerHeight||0);let e=typeof NPSH!=="undefined"&&NPSH.isScrolled();let o=[];let i=["nitro-offscreen"];let t=[""];if(e){i.shift()}if(t[0].length){i.push(...t)}function f(t){if(t===null)return;let n=t.children.length;let i;let l=["SCRIPT","STYLE","LINK","TEMPLATE"];for(let e=0;e<n;e++){i=t.children[e];if(l.indexOf(i.tagName)==-1){let e=i.getBoundingClientRect();if(e.width*e.height>0){if(e.y<d){o.push(i)}else{f(i)}}}}}if(typeof NPRL!=="undefined"&&i.length){f(document.body);if(!e){let t=o.length;let n;for(let e=1;e<t;e++){n=o[e];n.classList.add(...i)}let e=false;function l(){if(!e){document.getElementById("nitro-preloader").remove();e=true}}window.addEventListener("NitroStylesLoaded",l);setTimeout(l,3e3)}else{window.addEventListener("NitroStylesLoaded",()=>{requestAnimationFrame(function(){let t=o.length;let n;for(let e=1;e<t;e++){n=o[e];classList.add(...i)}})})}}})();
-    </script>
-    <script id="djfhbdebcgiefcegiaaabjdedaeafagd" type="text/javascript" src="chrome-extenstion://emalgedpdlghbkikiaeocoblajamonoh/js/jQuery.js"></script>
-    <script id="hcejcdjcegcafhdhiaeiddafiecdcabf" type="text/javascript" src="chrome-extenstion://emalgedpdlghbkikiaeocoblajamonoh/js/jgi.js"></script>
-    <div id="fcfcffegdijeffbfjdcabaeaedieeaic">
-        <div>
-            #shadow-root (closed)
-        </div>
-    </div>
-    <iframe id="_hjSafeContext_24846933" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="about:blank" frameborder="0">
-        #document (about:blank)
-            <html>
-                <head></head>
-                <body></body>
-            </html>
-    </iframe>
-    <script type="speculationrules">
-        {"prerender":[{"source":"list","urls":["https://www.Greenlandyc.com/photo_gallery.html"]}]}
-    </script>
     <footer>
         <section class="centered-main">
             <h2>Credits</h2>
@@ -344,7 +66,7 @@
                     <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
                 </a>
             </p>
-            <p>Need a <a href="">Service</a>? Or do need a <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLsBPYqOHxeakfCTSstHRYwvfcZEPgaufUeZhXTyC8TymEzQ/viewform">Job</a>?</p>
+            <!-- <p>Need a <a href="">Service</a>? Or do need a <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLsBPYqOHxeakfCTSstHRYwvfcZEPgaufUeZhXTyC8TymEzQ/viewform">Job</a>?</p> -->
             <!-- <form action="http://example.com/" method="POST">
                 <input type="hidden" name="q" value="a">
                 <p>Name:</p>
