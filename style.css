@@ -471,7 +471,8 @@ a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code,
 }
 /* Style the banner */
 header {
-    /* background-image: url("Images/landscape-design-1.jpg"); */
+    /* background-image: url("Images/landscape-design-1.jpg");*/
+    position: sticky;
     height: 100vh;
     min-height: 600px;
     max-height: 700px;
