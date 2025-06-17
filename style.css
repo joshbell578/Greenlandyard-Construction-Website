@@ -9,7 +9,7 @@ html {
 /* set color varibles */
 :root {
     --background: hsl(118, 97%, 13%);
-    --lighter-background: hsla(146, 76%, 37%, 50%);
+    --lighter-background: hsla(146, 100%, 39%, 0.5);
     --text: hsl(0, 89%, 83%);
     --primary: #f28907;
     --accent: #f2b56b;
